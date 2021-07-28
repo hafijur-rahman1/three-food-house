@@ -1,37 +1,114 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #efef;
+    background-color: #E5E5E5;;
     margin: 0;
 }
 .button{
     text-decoration: none;
     height: 40px;
-    width: 80px;
+    width: 100px;
     border-radius: 10px;
     border: none;
     color: whitesmoke;
     cursor: pointer;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
-    
-
 }
 .top-section{
-    display: flex;
-  
     
-    
-    
-}
-.half-container{
-    background-image: url(images/shapes/Group\ 8447.png);
-    /* background-position: right; */
+    background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    /* /* background-repeat: no-repeat; */
+    background-size: 100%;
+    /* background-position: right;  */
+}
+
+.half-container{
+    display: flex;
+    padding: 5%;
+
+ 
 }
 .half-width{
-    width: 50%;
-    /* padding-left: 5%; */
-    /* margin: 5%; */
+    margin: 5px 50px  ;
 }
+
 .half-width img{
+    width: 120%;
+    
+}
+.mid-section{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.half-mid-sec{
+    width: 50%;
+    margin-left: 15px;
+}
+.half-mid-sec img{
+    width: 50%;
+    padding-left: 60px;
+}
+.about-us{
+    display: flex;
+    /* margin: 15px; */
+}
+.recipi{
+    text-align: center;
+    margin:10px 100px 5px 100px;
+}
+.my-recipies{
+    display: flex;
+    margin: 5%;
+}
+.my-recipies img{
     width: 80%;
 }
+.menue-items{
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgb(86, 129, 94) ;
+    border-radius: 5px;
+}
+.socal-media{
+    animation: pulse 5s infinite;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 5%;
+    border-radius: 5px;
+    height: 200px;
+    width: 1150px;
+
+}
+.s-m-item{
+    color: whitesmoke;
+     margin-left: 200px; 
+     margin-top: 40px; 
+    /* padding: 10px; */
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin: 10px ;
+}
+/* *********************   social media animate ********/
+
+
+@keyframes pulse {
+    0% {
+      background-color: #0fceae;
+    }
+    10%{
+        background-color: rgb(85, 190, 23);
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+
+
+
